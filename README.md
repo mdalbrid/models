@@ -5,7 +5,7 @@
 ###### Data models and everything you need to work with them
 
 ----
-`/db` - PostgreSQL, драйвер github.com/jackc/pgx
+`/db` - PostgreSQL, драйвер [pgx](https://github.com/jackc/pgx "about")
 
 `/ws_exploration` - таблица исследований
 
