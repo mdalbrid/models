@@ -18,7 +18,7 @@ func ScanPgxRow(res pgx.Row) (f Object, err error) {
 	}
 	object.uuid = model.UUID(guid)
 	object.authorUUID = model.UUID(authorUUID)
-	object.explorationUUID = model.UUID(ZUUID)
+	object.explorationUUID = model.UUID(explorationUUID)
 	object.groupUUID = model.UUID(groupUUID)
 	object._changedFields = make(changedFields)
 	return object, err
