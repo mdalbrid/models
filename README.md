@@ -8,4 +8,4 @@ Data models and everything you need to work with them
 
 /ws_object - таблица с объектами исследования
 
-/ws_object_attribute - свойства объектов исследования
+/ws_object_attribute - таблица свойств объекта исследования
